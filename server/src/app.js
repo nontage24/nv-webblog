@@ -27,6 +27,7 @@ app.get('/users',function(req,res){
 })
 
 
+
 //create user
 app.post('/create-user',function(req,res){
     res.send('ทำการสร้างผู้ใช้งาน'+' : '+JSON.stringify(req.body))
@@ -47,3 +48,6 @@ app.delete('/delete-user/:userId',function(req,res){
 app.listen(port, function(){
     console.log('Server running on '+port)
 })
+
+
+//test git
